@@ -15,7 +15,11 @@ public class Hint {
     }
 
     public void increaseStrike() {
-            this.strike++;
+        this.strike++;
+    }
+
+    public void increaseBall() {
+        this.ball++;
     }
 
     public boolean isStrikeOut() {
